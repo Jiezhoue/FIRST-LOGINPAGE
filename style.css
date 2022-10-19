@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    border: 2px solid black;
+    height: 100vh;  
+    display: flex;
+}
+
+.left-login{
+    width: 50vw;
+    border: 2px solid black;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-pic{
+    width: 50vw;
+    border: 2px solid black;
+    height: 100vh;
+}
+
+.logo{
+    border: 2px solid black;
+    width: 50vw;
+    flex: 2;
+ 
+}
+
+.main-login{
+    border: 2px solid black;
+    width: 50vw;
+    flex: 20
+}
+.footer{
+    border: 2px solid black;
+    width: 50vw;
+    flex: 1
+}
